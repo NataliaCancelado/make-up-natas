@@ -1,0 +1,50 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background: #620d7c
+    font-family: 'calibri' ;
+}
+
+header {
+    background: #1386a333 ;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu {
+width: 900px;
+margin:  0 auto;
+}
+
+img {
+    width: 100px;
+    height: 70px;
+    float: left; 
+    padding: 6px;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12x 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #25e9a7
+    font-weight: bold;
+
+}
