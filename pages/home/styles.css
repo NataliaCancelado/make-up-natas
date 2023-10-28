@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+.header-container {
+  background-color: blue;
+  height: 90px;
+  width: 100%;
+}
+
+.menu-container {
+  background-color: aqua;
+}
