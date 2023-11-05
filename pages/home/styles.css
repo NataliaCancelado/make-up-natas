@@ -6,14 +6,42 @@
 
 body {
   background-color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
 .header-container {
   background-color: blue;
-  height: 90px;
   width: 100%;
 }
 
 .menu-container {
   background-color: aqua;
+  width: 100%;
+  margin-right: 39px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  background-color: rgb(196, 20, 43);
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+.options-container {
+  background-color: #dd15c78c;
+  width: 100%;
+}
+.options-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  align-items: flex-end;
 }
