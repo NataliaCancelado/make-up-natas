@@ -39,10 +39,11 @@ body {
   width: 100%;
 }
 .options-container ul {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
   flex-direction: row;
   gap: 10px;
+  height: 100%;
   justify-content: center;
   list-style: none;
 }
