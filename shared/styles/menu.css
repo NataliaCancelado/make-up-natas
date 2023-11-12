@@ -1,0 +1,42 @@
+.header-container {
+  background-color: blue;
+  width: 100%;
+}
+
+.menu-container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  margin-right: 39px;
+  padding: 8px;
+  width: 100%;
+}
+
+.logo {
+  background-color: rgb(196, 20, 43);
+}
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.options-container {
+  background-color: #6919fd8c;
+  width: 100%;
+}
+.options-container ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 100%;
+  justify-content: right;
+  list-style: none;
+}
+.options-container ul li {
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
