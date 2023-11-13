@@ -1,10 +1,10 @@
 .header-container {
-  background-color: blue;
+  background-color: ##1b004bb2;
   width: 100%;
 }
 
 .menu-container {
-  background-color: aqua;
+  background-color: #ff69b4;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  background-color: rgb(196, 20, 43);
+  background-color: #ff69b4;
 }
 .logo img {
   height: 80px;
@@ -23,7 +23,7 @@
 }
 
 .options-container {
-  background-color: #6919fd8c;
+  background-color: #ff69b4;
   width: 100%;
 }
 .options-container ul {
@@ -38,5 +38,7 @@
 .options-container ul li {
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+
+    }
 }
