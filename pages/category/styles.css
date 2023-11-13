@@ -1,7 +1,11 @@
-.option-makeup li {
+.option-makeup {
+  padding: 5px;
+}
+.option-makeup ul {
   color: black;
-  font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  list-style-type: upper-roman;
+  font-size: 20px;
+  list-style-type: circle;
+  margin-inline-start: 20px;
 }
