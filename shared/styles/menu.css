@@ -1,5 +1,5 @@
 .header-container {
-  background-color: ##1b004bb2;
+  background-color: #1b004bb2;
   width: 100%;
 }
 
@@ -38,7 +38,12 @@
 .options-container ul li {
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
-    }
+.options-container ul li a:hover {
+  color: black;
+  font-size: 17px;
+  text-decoration: underline;
+  transition: all 0.3s ease;
 }
