@@ -1,0 +1,27 @@
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #ccc;
+}
+
+form label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select[name="products"],
+form textarea {
+  width: 180px;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+}
