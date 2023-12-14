@@ -25,3 +25,10 @@ form textarea {
   margin: 8px 0;
   display: inline-block;
 }
+#form2 {
+  width: 250px;
+  padding: 18px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #13d399;
+}
