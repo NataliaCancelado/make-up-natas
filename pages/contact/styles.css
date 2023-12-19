@@ -25,10 +25,47 @@ form textarea {
   margin: 8px 0;
   display: inline-block;
 }
+
 #form2 {
-  width: 250px;
-  padding: 18px;
-  border-radius: 10px;
+  width: 330px;
+  padding: 14px;
+  border-radius: 2px;
   margin: auto;
-  background-color: #13d399;
+  background-color: rgb(100, 100, 184);
+}
+
+#form2 input[type="text"],
+#form2 input[type="email"] {
+  width: 100%;
+  padding: 12px 85px;
+  margin-top: 17px;
+  border: 3px solid #ff69b4;
+  border-radius: 7px;
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
+#form2 textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  border: 3px solid #ff69b4;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+#form2 input[type="submit"]:hover {
+  cursor: pointer;
+}
+#form2 input[type="submit"] {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 35px;
+  border: 3px solid #ff69b4;
+  border-radius: 7px;
+  display: block;
+  color: #1b004b;
+  font-weight: bold;
+  background-color: #ff69b4;
 }
