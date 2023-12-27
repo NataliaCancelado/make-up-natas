@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(150deg, white), white;
+  background: linear-gradient(150deg, rgb(8, 100, 128), rgb(11, 226, 161));
   height: 100vh;
 }
 .formulario {
@@ -11,27 +11,25 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  background-color: rgb(162, 233, 171);
+  background: white;
   border-radius: 10px;
 }
 .formulario h1 {
   text-align: center;
   padding: 0 0 20px 0;
-  border-bottom: 1px solid rgb(196, 82, 16);
-  margin: 40px 0;
+  border-bottom: 2px solid rgb(253, 9, 220);
+  font-size: 29px;
+  color: rgb(80, 10, 192);
 }
-
 .formulario form {
-  padding: 0px 40px;
+  padding: 0 40px;
   box-sizing: border-box;
 }
-
 form .username {
   position: relative;
-  border-bottom: 2px solid rgb(196, 82, 16);
+  border-bottom: 2px solid rgb(253, 9, 220);
   margin: 30px 0;
 }
-
 .username input {
   width: 100%;
   padding: 0 5px;
@@ -45,11 +43,13 @@ form .username {
   position: absolute;
   top: 50%;
   left: 5px;
-  color: black;
-  transform: translate(-50%);
+  color: rgb(80, 10, 192);
+  transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;
+  transition: -5s;
 }
+
 .username span::before {
   content: "";
   position: absolute;
@@ -57,50 +57,48 @@ form .username {
   left: 0;
   width: 100%;
   height: 2px;
-  background: white;
+  background: rgb(80, 10, 192);
 }
 .username input:focus ~ label,
 .username input:focus ~ label {
   top: -5px;
-  color: white;
-}
-.username input:focus ~ span::before,
-.username input:focus ~ span::before {
-  width: 100%;
+  color: rgb(80, 10, 192);
 }
 .recordar {
   margin: -5px 0 20px 5px;
-  color: blue;
+  color: black;
   cursor: pointer;
 }
 .recordar hover {
   text-decoration: underline;
 }
-input [type="submit"] {
+input[type="submit"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background-color: blueviolet;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: rgb(253, 9, 220);
   border-radius: 25px;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   cursor: pointer;
   outline: none;
 }
-input [type="submit"]:hover {
-  border-color: purple;
+input[type="submit"]:hover {
+  border-color: white;
   transition: 0.5s;
 }
-
 .registrarse {
   margin: 30px 0;
   text-align: center;
-  font-size: 16px;
+  font-size: 1p4x;
   color: black;
 }
 .registrarse a {
-  color: blue;
+  color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 .registrarse a:hover {
   text-decoration: underline;
