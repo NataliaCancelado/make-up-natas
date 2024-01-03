@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(150deg, rgb(8, 100, 128), rgb(11, 226, 161));
+  background: linear-gradient(150deg, rgb(168, 243, 124), rgb(233, 214, 108));
   height: 100vh;
 }
 .formulario {
@@ -19,7 +19,7 @@ body {
   padding: 0 0 20px 0;
   border-bottom: 2px solid rgb(253, 9, 220);
   font-size: 29px;
-  color: rgb(80, 10, 192);
+  color: black;
 }
 .formulario form {
   padding: 0 40px;
@@ -43,7 +43,7 @@ form .username {
   position: absolute;
   top: 50%;
   left: 5px;
-  color: rgb(80, 10, 192);
+  color: black;
   transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;

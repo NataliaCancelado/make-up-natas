@@ -1,0 +1,47 @@
+form {
+  width: 300px;
+  padding: 25px;
+  border-radius: 12px;
+  margin: auto;
+  background-color: #90d6bb;
+}
+
+form label {
+  width: 80px;
+  color: blue;
+  font-weight: bold;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+  width: 200px;
+  padding: 10px 3px;
+  border: 1px solid #1609c5e1;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+form select {
+  width: 208px;
+  padding: 10px 3px;
+  border: 1px solid #1609c5e1;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 10px 0;
+  display: inline-block;
+}
+form textarea {
+  width: 285px;
+  padding: 8px 3px;
+  border: 1px solid #1609c5e1;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 15px 0;
+  display: inline-block;
+}
