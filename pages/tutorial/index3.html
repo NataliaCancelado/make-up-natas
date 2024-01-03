@@ -8,27 +8,34 @@
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
-        background: #18a383;
+        background: #6de787;
         box-sizing: border-box;
       }
       form {
-        background-color: white;
+        background-color:white;
         border-radius: 3px;
-        color: #999;
+        color:blue;
+        font-size: 14px;
         margin: 0 auto;
-        padding: 10px;
+        padding: 20px;
         width: 300px;
       }
       input,
       textarea {
         border: 0;
         outline: none;
+        width: 270px;
       }
-      .field {
+      .field{
+        border: solid 1px #ccc;
+        padding: 10px;
+
       }
-      .field:focus {
+      .field:focus{
+        border color: #18A383;;
       }
       .center-content {
+        text-align: center;
       }
     </style>
   </head>
@@ -47,7 +54,7 @@
       <textarea class="field"></textarea> <br />
 
       <p class="center-content">
-        <input type="button" class="btn btn-green" value="Enviar datos" />
+        <input type="submit" class="btn btn-green" value="Enviar datos" />
       </p>
     </form>
   </body>
