@@ -9,13 +9,13 @@
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(255, 60, 0);
 }
+
 ul,
 ol {
   list-style: none;
 }
-.nav,
-li,
-a {
+
+.nav li a {
   background-color: black;
   color: #fff;
   text-decoration: none;
@@ -35,4 +35,13 @@ a {
 }
 .nav li:hover > ul {
   display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
 }
