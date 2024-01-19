@@ -3,11 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>NATAS.STORE💄</title>
+
     <link rel="stylesheet" href="../../shared/styles/base.css" />
     <link rel="stylesheet" href="../../shared/styles/menu.css" />
     <link rel="stylesheet" href="../../shared/styles/main.css" />
-    <link rel="stylesheet" href="../tareas-html/tarea2.css" />
+
+    <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .button-primary {
+        background-color: #3498db;
+        color: #fff;
+      }
+
+      .button-secondary {
+        background-color: #e74c3c;
+        color: #fff;
+      }
+
+      .button-success {
+        background-color: #2ecc71;
+        color: #fff;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+    </style>
   </head>
   <body>
     <header class="header-container">
@@ -32,49 +65,25 @@
             <li>
               <a href="../blog/index.html">Blog</a>
             </li>
-
             <li>
-              <a href="../tareas-html/general.html">Tareas</a>
+              <a href="#">Tareas</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <body>
-      <div id="header">
-        <ul class="nav">
-          <li><a href="">Inicio</a></li>
-  
+
+    <main class="main-container">
+      <h1>CATEGORIAS</h1>
+      <div class="option-makeup">
+        <ul>
+          <li><a class="button" href="../tareas/etiqueta.html">Tarea1</a></li>
+          <li><a class="button" href="../tareas/menu1.html">Tarea2</a></li>
           <li>
-            <a href="">Servicios</a>
-            <ul>
-              <li><a href="">Comida</a></li>
-              <li><a href="">Postres</a></li>
-              <li><a href="">Bebidas</a></li>
-              <li>
-                <a href="">Flores</a>
-                <ul>
-                  <li><a href="">Salmon</a></li>
-                  <li><a href="">Coctel</a></li>
-                  <li><a href="">Arroz</a></li>
-                  <li><a href="">Amarrillas</a></li>
-                </ul>
-              </li>
-            </ul>
+            <a class="button" href="../tareas/formularios/index.html">Tarea3</a>
           </li>
-  
-          <li>
-            <a href="">Acerca de</a>
-            <ul>
-              <li><a href="">Domicilios</a></li>
-              <li><a href="">Medios de pago</a></li>
-              <li><a href="">PQRS</a></li>
-            </ul>
-          </li>
-  
-          <li><a href="">Contacto</a></li>
         </ul>
       </div>
-    </body>
-  </html>
-  
+    </main>
+  </body>
+</html>
