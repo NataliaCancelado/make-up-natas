@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #6de787;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: white;
+  border-radius: 3px;
+  color: blue;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  margin-top: 30px;
+}
+input,
+textarea {
+  border: 0;
+  outline: none;
+  width: 270px;
+  resize: vertical;
+}
+
+.field {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+.field:focus {
+  border-color: #18a383;
+}
+.center-content {
+  text-align: center;
+  margin-top: 10px;
+}
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0, 3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0, 3);
+}
+.btn-green {
+  color: blue;
+  font-weight: bold;
+
+  background-color: #6de787;
+}
+.btn-green:hover {
+  background-color: #e6d85f;
+}
+.btn-green:active {
+  background-color: #f09662;
+}
+.options-container {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

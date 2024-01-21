@@ -1,13 +1,14 @@
 form {
-  width: 300px;
+  width: 342px;
   padding: 25px;
   border-radius: 12px;
   margin: auto;
   background-color: #d3a5f8;
+  margin-top: 30px;
 }
 
 form label {
-  width: 80px;
+  width: 70px;
   color: blue;
   font-weight: bold;
   display: inline-block;
@@ -28,7 +29,7 @@ form input[type="number"] {
 }
 
 form select {
-  width: 208px;
+  width: 200px;
   padding: 10px 3px;
   border: 1px solid #1609c5e1;
   border-radius: 3px;
@@ -37,12 +38,12 @@ form select {
   display: inline-block;
 }
 form textarea {
-  width: 285px;
-  padding: 8px 3px;
+  width: 278px;
+  padding: 10px 3px;
   border: 1px solid #1609c5e1;
   border-radius: 3px;
   background-color: #f6f6f6;
-  margin: 15px 0;
+  margin: 12px 0;
   display: inline-block;
   resize: vertical;
 }
