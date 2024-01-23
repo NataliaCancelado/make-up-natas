@@ -1,5 +1,5 @@
 h1 {
-  color: black;
+  color: ##1b004b;
   font-size: 20px;
   text-transform: uppercase;
   display: block;
@@ -9,14 +9,15 @@ h1 {
 }
 .btn {
   box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   background-color: transparent;
-  border: 2px solid $red;
+  border: 2px solid #ff69b4;
   border-radius: 0.6em;
-  color: $red;
+  color: #ff69b4;
   cursor: pointer;
-  display: flex;
-  align-self: center;
+
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
@@ -25,6 +26,40 @@ h1 {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 700;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.fifth {
+  border-color: #8e44ad;
+  border-radius: 0;
+  color: #8e44ad;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+}
+.fifth:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #8e44ad;
+  z-index: -1;
+  transition: width 150ms ease-in-out;
+}
+.fifth:hover {
+  color: #fff;
+}
+.fifth:hover:after {
+  width: 110%;
 }
