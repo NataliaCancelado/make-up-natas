@@ -36,9 +36,9 @@ h1 {
   outline: 0;
 }
 .fifth {
-  border-color: #8e44ad;
+  border-color: #ff69b4;
   border-radius: 0;
-  color: #8e44ad;
+  color: #ff69b4;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -53,7 +53,7 @@ h1 {
   transform: translateX(-50%);
   width: 0;
   height: 100%;
-  background: #8e44ad;
+  background: #ff69b4;
   z-index: -1;
   transition: width 150ms ease-in-out;
 }
