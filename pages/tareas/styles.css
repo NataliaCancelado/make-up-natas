@@ -1,30 +1,9 @@
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+h1 {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
   text-align: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.button-primary {
-  background-color: #c47918;
-  color: #fff;
-}
-
-.button-secondary {
-  background-color: #e74c3c;
-  color: #fff;
-}
-
-.button-success {
-  background-color: #2ecc71;
-  color: #fff;
-}
-
-.button:hover {
-  background-color: #555;
+  margin-top: 20px;
 }
