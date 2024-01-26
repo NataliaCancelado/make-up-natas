@@ -54,3 +54,17 @@
   font-weight: bold;
   background-color: #ff69b4;
 }
+.boton-regresar {
+  font-size: 30px;
+  padding: 10px 15px;
+  background-color: #ac16e7;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-regresar:hover {
+  background-color: #ff69b4;
+}
