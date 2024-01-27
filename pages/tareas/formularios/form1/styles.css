@@ -1,68 +1,76 @@
+.form1-container {
+  margin-bottom: 50px;
+}
 #form2 {
-  width: 380px;
-  padding: 20px;
-  border-radius: 2px;
-  margin: auto;
   background-color: rgb(100, 100, 184);
+  border-radius: 2px;
   margin-top: 30px;
+  margin: auto;
+  padding: 20px;
+  width: 380px;
 }
 
 #form2 input[type="text"],
 #form2 input[type="email"] {
-  width: 100%;
-  height: 100%;
-  padding: 10px 7px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 4px solid #ff69b4;
   border-radius: 4px;
-  display: block;
+  border: 4px solid #ff69b4;
   color: black;
-  font-weight: bold;
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: bold;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 7px;
+  width: 100%;
 }
 
 #form2 textarea {
-  width: 100%;
-  height: 100%;
-  padding: 10px 7px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 4px solid #ff69b4;
   border-radius: 4px;
-  display: block;
+  border: 4px solid #ff69b4;
   color: black;
-  font-weight: bold;
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: bold;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 7px;
   resize: vertical;
+  width: 100%;
 }
 
 #form2 input[type="submit"]:hover {
   cursor: pointer;
 }
 #form2 input[type="submit"] {
-  width: 100%;
-  padding: 8px 16px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  border: 4px solid #ff69b4;
-  border-radius: 4px;
-  display: block;
-  color: #1b004b;
-  font-weight: bold;
   background-color: #ff69b4;
+  border-radius: 4px;
+  border: 4px solid #ff69b4;
+  color: #1b004b;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding: 8px 16px;
+  width: 100%;
 }
+
 .boton-regresar {
-  font-size: 30px;
-  padding: 10px 15px;
   background-color: #ac16e7;
-  color: black;
-  border: none;
   border-radius: 5px;
+  border: none;
+  color: black;
   cursor: pointer;
+  font-size: 30px;
+  margin: 20px;
   transition: background-color 0.3s ease;
+}
+.boton-regresar a {
+  display: block;
+  padding: 10px 15px;
 }
 
 .boton-regresar:hover {
