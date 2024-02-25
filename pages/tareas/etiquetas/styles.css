@@ -2,3 +2,9 @@
   margin: 27px;
   list-style-type: upper-roman;
 }
+
+.content-wrapper {
+  margin: 0 auto;
+  background-color: aqua;
+  width: 60%;
+}

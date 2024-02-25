@@ -1,4 +1,25 @@
 .main-container {
   margin-top: 12px;
   text-align: center;
+  background-color: beige;
+}
+
+.boton-regresar {
+  background-color: #ac16e7;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+.boton-regresar a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.boton-regresar:hover {
+  background-color: #ff69b4;
 }
