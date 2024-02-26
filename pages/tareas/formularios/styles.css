@@ -41,7 +41,7 @@ h1 {
 .third {
   border-color: #ff69b4;
   color: #fff;
-  box-shadow: 0 0 40px 40px #69afff inset, 0 0 0 0 #ff69b4;
+  box-shadow: 0 0 40px 40px #69ffb4 inset, 0 0 0 0 #ff69b4;
   transition: all 150ms ease-in-out;
 }
 .third:hover {
