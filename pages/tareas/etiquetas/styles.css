@@ -1,6 +1,8 @@
 .option-variety ul {
-  margin: 27px;
-  list-style-type: upper-roman;
+  margin: 0 auto;
+  list-style-type: circle;
+  background-color: rgb(255, 102, 0);
+  padding-inline-start: 20px;
 }
 
 .content-wrapper {
