@@ -31,7 +31,7 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-  color: #fff;
+  color: #ffffff;
   outline: 0;
 }
 
@@ -60,7 +60,7 @@ h1 {
   z-index: -1;
 }
 .fifth:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .fifth:hover:after {
   width: 110%;
