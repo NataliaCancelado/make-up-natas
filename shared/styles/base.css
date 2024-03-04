@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url ("../../assets/img/fonts/static/Raleway-Regular.ttf");
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,15 +10,14 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 10px;
+  font-family: "Raleway-Regular";
+  font-size: 50px;
 }
 
 a {
   text-decoration: none;
   color: #1b004b;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h1 {
