@@ -11,9 +11,14 @@
 body {
   background-color: rgb(255, 255, 255);
   font-family: "Raleway-Regular";
-  font-size: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 a {
   text-decoration: none;
   color: #1b004b;
@@ -22,7 +27,7 @@ a {
 
 h1 {
   color: #1b004b;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
